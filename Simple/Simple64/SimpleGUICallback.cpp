@@ -32,7 +32,6 @@ bool Alice::SetCallback(decltype(DefWindowProcW) *function , CallbackType ct) {
 	return true;
 }
 
-
 Alice::CallbackType Alice::GetCallbackType() {
 	return callback_type;
 }
